@@ -1,0 +1,51 @@
+body{
+    background: silver;
+}
+
+.window {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+.container{
+    background: cornsilk;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 20px;
+    width: 230px;
+    box-shadow: 2px 1px 1px  grey;
+}
+
+.star{
+    font-size: 40px;
+}
+
+.item_1{
+    color: coral;
+    font-size: 20px;
+    height: 35px;
+ }
+
+.item_2{
+    width: 200px;
+}
+
+.text{
+    text-align: center;
+    color: grey;
+}
+
+.button{
+    background: mediumspringgreen;
+    border: none;
+    padding: 5px ;
+}

@@ -6,14 +6,18 @@ body{
     margin-top: 120px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
 .main{
     display: flex;
     justify-content: space-around;
-    width: 1000px;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
 }
+
 .container{
     background: cornsilk;
     box-sizing: border-box;
